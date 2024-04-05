@@ -172,21 +172,21 @@ def processing_payment(user_card_number, user_expiration_month, user_expiration_
 def main():
     url = "https://www.bestbuy.com/site/apple-20w-usb-c-power-adapter-white/6437121.p?skuId=6437121"
     sign_in=False
-    user_email = "mohammedmuridi12@gmail.com"
+    user_email = "Myemail@gmail.com"
     user_email2 = " "
     user_pass = " "
-    user_phone = "5174022818"
-    user_card_number = "4311647647867765"
+    user_phone = "(555)555-5555"
+    user_card_number = "1234-1234-1233-1111"
     user_expiration_month = "12"
     user_expiration_year = "2024"
     user_cvv = "333"
-    user_first_name = "mamduh"
-    user_last_name = "smells"
-    user_street_address = "1140 S Holmes St"
+    user_first_name = "John"
+    user_last_name = "Doe"
+    user_street_address = "1111 house st"
     user_apt_number = " "
-    user_city = "lansing"
+    user_city = "Detroit"
     user_state = "MI"
-    user_zipcode = "48912"
+    user_zipcode = "12312"
 
     add_to_cart(url)
     check_out_type = check_out(url, email=user_email2, password=user_pass)
